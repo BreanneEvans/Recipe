@@ -1,0 +1,75 @@
+* {
+font-family: 'Montserrat', sans-serif;
+    color: #3A474F; 
+}
+
+.large1 {font-size: 40px;
+position: relative;
+left: 110px;
+top: -335px}
+
+.small1 { font-size: 20px;position: relative;
+left: 90px;
+top: -382px}
+
+.large2 {font-size: 40px;
+position: relative;
+left: 290px;
+top: -490px;}
+
+.small2 { font-size: 20px;position: relative;
+left: 275px;
+top: -535px;}
+
+h1 { font-size: 100px;
+position: relative;
+left: 70px;}
+
+h3 { font-size: 40px;
+position: relative;
+left: 70px;}
+
+ul, ol { font-size: 16 px;}
+
+.spag {position: relative;
+        left: 800px;
+        top: -285px}
+
+.prep {position: relative;
+        left: -340px;
+        top: -300px}
+
+.cook {position: relative;
+        left: -320px;
+        top: -300px}
+
+ul {
+    list-style: none;
+    position: relative;
+    left: 30px;
+    top: -552px;
+}
+
+ul li::before { 
+content: "\25AA"; 
+color: #50D2C2;
+}
+
+li { font-size: 18px;}
+
+ol {position: relative;
+    left: 600px;
+    top: -1120px;}
+
+.instructions {position: relative;
+left: 637px;
+top:-1090px;}
+
+.ingredients {position: relative;
+top:-520px;}
+
+ol {list-style: none; counter-reset: li}
+li::before {content: counter(li); 
+    color: #50D2C2;
+    counter-increment: li
+
